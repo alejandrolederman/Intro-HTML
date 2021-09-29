@@ -1,0 +1,23 @@
+body {
+
+    
+    font-family: 'Birthstone', cursive;
+}
+
+h1{
+    font-family : sans-serif;
+}
+
+.texto-destacado {
+    color: salmon;
+    font-size: 30px;
+}
+
+strong{
+    color: slateblue;
+}
+.parrafo{
+    color: springgreen;
+    font-size: 30px;
+    text-transform: uppercase;
+}
