@@ -1,23 +1,24 @@
-body {
-
-    
-    font-family: 'Birthstone', cursive;
+*{
+    box-sizing: border-box;
 }
 
-h1{
-    font-family : sans-serif;
+
+.contenedor01{
+   width: 90%;
+   padding: 20px;
+   border: solid 5px black ;
+   background-color:salmon;
+   margin: auto;
 }
 
-.texto-destacado {
-    color: salmon;
-    font-size: 30px;
+@media( min-width: 570px){
+    .contenedor01{
+ 
+        border: solid 5px salmon ;
+        background-color:black;
+        color: white;
+            }
+ 
 }
 
-strong{
-    color: slateblue;
-}
-.parrafo{
-    color: springgreen;
-    font-size: 30px;
-    text-transform: uppercase;
-}
+
